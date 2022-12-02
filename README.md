@@ -5,5 +5,5 @@ Este proyecto es una actualizaciòn del proyecto de python inicial, el cual era 
 
 guillermodavidbueno@gmail.com
 Bueno Guillermo David - Pto. Mardyn - Chubut 1/12/2022![pngegg](https://user-images.githubusercontent.com/109253840/205204347-dfe150a6-b35b-4df1-8dfb-4ae90242557a.png)
-![pngegg](https://user-images.githubusercontent.com/109253840/205204394-dcefe227-a60e-4804-862f-210c0d90a574.png)
+
 
