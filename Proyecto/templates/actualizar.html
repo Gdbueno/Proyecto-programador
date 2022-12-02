@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<hr class="my-4">
+<p class="lead">En esta secciòn podra actualizar el registro seleccionado.</p>
+<hr class="my-4">
+<form action="/actualizar/{{dato.id}}" method="POST">
+  <small class="form-text text-muted">Equipo</small>
+  <input type="text" class="form-control" style="width:20%" name="equipo" placeholder="ingrese equipo"
+    value="{{dato.equipo}}">
+  <small class="form-text text-muted">Tarea</small>
+  <input type="number" class="form-control" style="width:20%" name="tarea" placeholder="ingrese tarea"
+    value="{{dato.tarea}}">
+  <small class="form-text text-muted">Operario</small>
+  <input type="text" class="form-control" style="width:20%" name="operario" placeholder="ingrese operario"
+    value="{{dato.operario}}">
+  <small class="form-text text-muted">Hs. Trabajadas</small>
+  <input type="number" class="form-control" style="width:20%" name="hstrabajadas" placeholder="ingrese hs"
+    value="{{dato.hs_trabajadas}}">
+  <div>
+    <button type="submit" class="btn btn-primary" style="width:20%">Guardar</button>
+  </div>
+</form>
+{% endblock %}

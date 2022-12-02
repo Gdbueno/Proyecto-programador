@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">Control de Mantenimiento</h1>
+  <p class="lead">Esta aplicacion permite llevar un control de las tareas que se realizan en los equipos, horas y
+    operarios.</p>
+  <hr class="my-4">
+
+  <img src="{{url_for('static', filename='pngegg.png')}}" /></a>
+  <hr class="my-4">
+  <p class="lead">En la seccion lista, se encuentra una tabla detallada y un formulario para realizar los registros,
+    cada registro tiene opciones para actualizar o eliminar el mismo.</p>
+  <hr class="my-4">
+  <p class="lead">En la seccion graficos, se encuentra un formulario para visualizar un grafico por equipo.</p>
+</div>
+
+{% endblock %}

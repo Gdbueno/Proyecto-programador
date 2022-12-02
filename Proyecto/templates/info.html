@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">Control de Mantenimiento</h1>
+  <p class="lead">Esta proyecto es una actualizaciòn del proyecto de python inicial, el cual utilizaba un archivo .csv
+    para almacenar la informaciòn y realizar las operaciones requeridas con las misma, en esta actualizaciòn se utiliza
+    una base de datos y se agregò la opcion de graficar por equipos y tarea. En cuanto a la interfaz se trabajo en una
+    interfaz simple para reducir la posibilidad de errores para el usuario, y de esta manera reducir el tratamiento de
+    errores en el còdigo, se utiliza Bootstrap para la personalizaciòn y se incluyo la extensiòn Flash en el codigo para
+    visualizar mensajes como resultado de la manipulaciòn de registros.</p>
+  <hr class="my-4">
+
+  <img src="{{url_for('static', filename='pngegg.png')}}" style="width:30%" /></a>
+  <hr class="my-4">
+
+  <p class="lead">Versiòn 1.1</p>
+  <p class="lead">guillermodavidbueno@gmail.com</p>
+  <p class="lead">Bueno Guillermo David, Pto. Madryn, Chubut.</p>
+  <hr class="my-4">
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<hr class="my-4">
+<p class="lead">Ingrese un equipo para obtener un gràfico.</p>
+<hr class="my-4">
+
+<form method="POST" action="{{url_for('graficos')}}">
+
+  <input type="text" class="form-control" name="equipos">
+  <hr class="my-4">
+  <div>
+    <button type="submit" class="btn btn-primary" style="width:20%">Ver Gràfico</button>
+  </div>
+</form>
+<img src="{{url_for('static', filename='pngegg.png')}}" style="width:30%" /></a>
+<p></p>
+
+{% endblock %}
